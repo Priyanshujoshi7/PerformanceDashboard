@@ -1,0 +1,115 @@
+.performance-metrics {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .timeline-box:last-child {
+    margin-right: 0;
+  }
+  
+  .calendar-icon {
+    margin-left: 10px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card span {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .status-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .status-box {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    background-color: lightgrey;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .status-box.selected {
+    background-color: #FFFDD0;
+  }
+  
+  .status-box:last-child {
+    margin-right: 0;
+  }
+  
+  .special-card {
+    background-color: #b15c1f;
+    color: rgb(7, 7, 7);
+    flex: 0.8;
+  }
+  
+  .special-card button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .stat-box {
+    background-color: #FFFDD0;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .skin-brown {
+    background-color: #8B4513;
+    color: white;
+  }
+  

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.notifications, .performance-metrics, .customization-section {
+    padding: 2rem;
+}
+
+.notification-card, .metrics-cards .card, .customization-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.metrics-header, .timeline-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline-buttons button {
+    margin: 0 0.5rem;
+}
+
+.pie-chart {
+    width: 200px;
+    height: 200px;
+}
